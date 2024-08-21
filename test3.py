@@ -7,7 +7,6 @@ import time
 groq_client = Groq(
     api_key="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"
 )
-
 logging.basicConfig(level=logging.INFO)
 
 # Initialize chat history in session state if not already present
